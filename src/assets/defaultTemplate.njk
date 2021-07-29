@@ -6,7 +6,7 @@
 {% if pages %}* Pages: {{pages}}{% endif %}
 {% if publication %}* Publication: {{publication}}{% endif %}
 {% if publisher %}* Publisher: {{publisher}}{% endif %}
-{% if url %}* Reference: [[{{url}}]]{% endif %}
+{% if url %}* [Reference]({{url}}) {% endif %}
 {% if appLink %}* [Kindle link]({{appLink}}){% endif %}
 
 {% for highlight in highlights %}
